@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land_Area_Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heading">
+                <h1><img src="images/location.png" alt="">Land Area Converter</h1>
+                <p>Convert <b>Marla,Kanal,Acre,Murabba</b> & Much More...</p>
+            </div>
+            <div class="input-value">
+                <input type="number" class="number" placeholder="Enter your value...">
+                <img src="images/arrow.png" alt="">
+                <select name="units" id="units">
+                    <option value="" disabled selected>Select Unit</option>
+                    <option value="Marla" class="option">Marla</option>
+                    <option value="Kanal" class="option">Kanal</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Murabba">Murabba</option>
+                    <option value="Square-Feet">Square Feet</option>
+                    <option value="Square-Meter">Square Meter</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button class="convert">Convert</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+        <div class="content">
+            <h4 class="result">Conversation Results</h4>
+        </div>
+        <div class="boxes">
+            <div class="box1 box">
+                <h3>Marla</h3>
+                <p class="marla-value">0.00</p>
+                <p>مرلہ</p>
+                <p class="hint">1 marla</p>
+            </div>
+            <div class="box2 box">
+                <h3>Kanal</h3>
+                <p class="kanal-value">0.00</p>
+                <p>کنال</p>
+                <p class="hint">1 kanal = 20 marla</p>
+            </div>
+            <div class="box3 box">
+                <h3>Acre</h3>
+                <p class="acre-value">0.000</p>
+                <p>ایکڑ</p>
+                <p class="hint">1 acre = 160 marla</p>
+
+            </div>
+            <div class="box4 box">
+                <h3>Murabba</h3>
+                <p class="murabba-value">0.000</p>
+                <p>مربع</p>
+                <p class="hint">1 murba = 4000 marla</p>
+
+            </div>
+            <div class="box5 box">
+                <h3>Square Feet</h3>
+                <div class="rate">
+                    <p class="square-feet-value">0.00</p>
+                    <p class="last">sq/ft</p>
+                    <p class="hint">1 sqrFeet = 0.0036 marla</p>
+                </div>
+            </div>
+            <div class="box6 box">
+                <h3>Square Meter</h3>
+                <div class="rate">
+                    <p class="square-meter-value">0.00</p>
+                    <p class="last"> sq/m</p>
+                    <p class="hint">1 sqrMtr = 0.039 marla</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
