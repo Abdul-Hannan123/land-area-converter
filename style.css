@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ccf2ff;
+}
+
+.box {
+    height: 110px;
+    width: 270px;
+    border-radius: 12px;
+    background: #99dcf3;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.9s;
+    position: relative;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    /* transform: scale(1.1); */
+    box-shadow: 0 8px 25px #268aac;
+
+}
+
+.container {
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 34px;
+    font-weight: 520;
+    margin-top: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.heading h1 img {
+    width: 33px;
+    margin-right: 12px;
+}
+
+.heading p {
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.heading p b {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.input-value {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.input-value .number {
+    padding: 12px 12px 12px 8px;
+    width: 270px;
+    border: none;
+    outline: none;
+}
+
+#units {
+    padding: 12px 12px 12px 8px;
+    width: 270px;
+    border: none;
+    outline: none;
+}
+
+/* fot the dropdown image we use this properties */
+.input-value img {
+    width: 14px;
+    position: absolute;
+    right: 3%;
+    bottom: 26%;
+}
+
+/* For increase the size of placeholder in input-field */
+.input-value .number::placeholder {
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.convert,
+.reset {
+    padding: 9px 12px 9px 8px;
+    width: 270px;
+    cursor: pointer;
+    font-size: 15px;
+    font-width: 600;
+    border-radius: 7px;
+}
+
+.convert {
+    background-color: rgb(67, 155, 67);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.7s;
+}
+
+.convert:hover {
+    background-color: rgb(72, 200, 72);
+}
+
+.reset {
+    cursor: not-allowed;
+    background-color: rgb(177, 176, 176);
+    border: none;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .result {
+    margin-left: -29%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.box h3 {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-weight: 400;
+    color: rgb(57, 57, 57);
+}
+
+.box :nth-child(2) {
+    text-align: center;
+    font-size: 35px;
+}
+
+.box :nth-child(3) {
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: 500;
+
+}
+
+.box5,
+.box6 {
+    padding-top: 10px;
+    height: 82px;
+    font-size: 10px;
+
+}
+
+.rate {
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+.box5 .rate {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.box5 .rate .last {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.box6 .rate {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.box6 .rate .last {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hint {
+    position: absolute;
+    top: 8%;
+    right: 7%;
+    color: red;
+    font-size: 13px;
+    font-weight: 400;
+    display: none;
+}
+
+/* Now make this calculator is responsive for mobile */
+@media (max-width:600px) {
+
+    .container {
+        margin: 8px 10px 8px 10px;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+
+    }
+
+    .heading h1 img {
+        width: 23px;
+    }
+
+    .heading p {
+        font-size: 12px;
+    }
+
+    .input-value {
+        margin: 12px 10px 0px 10px;
+    }
+
+    .input-value .number {
+        padding: 8px 12px 7px 8px;
+        width: 145px;
+    }
+
+    .input-value img {
+        width: 12px;
+    }
+
+    #units {
+        padding: 8px 12px 7px 8px;
+        width: 145px;
+    }
+
+    .input-value .number::placeholder {
+        font-size: 12px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px;
+        gap: 12px;
+    }
+
+    .convert,
+    .reset {
+        padding: 9px 12px 9px 8px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 12px;
+        font-width: 600;
+        border-radius: 7px;
+    }
+
+    .content .result {
+        margin-right: 54px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .box {
+        height: 110px;
+        width: 320px;
+    }
+
+
+
+
+
+
+
+
+}
