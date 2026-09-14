@@ -18,4 +18,24 @@ This project allows users to convert land measurements between different units s
 
 ---
 
+## ✨ Features
 
+- 🔄 Convert land area between multiple units
+- 🏡 Supports:
+  - Marla
+  - Kanal
+  - Acre
+  - Murabba
+  - Square Feet
+  - Square Meter
+- 📱 Fully responsive design
+- 💻 Works on desktop, tablet, and mobile devices
+- ⚡ Fast conversion using JavaScript
+- 🎯 Simple and easy-to-use interface
+- ⚠️ Displays an alert when the user tries to convert without entering a value
+- ⚠️ Handles unit selection before conversion
+- 🔄 Reset button clears the input and conversion results
+- 📊 Displays conversion results in separate cards
+- 🌐 No external library or framework required
+
+---
