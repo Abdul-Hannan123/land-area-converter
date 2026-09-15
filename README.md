@@ -103,3 +103,44 @@ The application is designed to provide a good user experience on different scree
 The layout automatically adjusts according to the screen size.
 
 ---
+
+## 💡 Project Highlights
+
+This project was created to practice and demonstrate:
+
+- DOM manipulation
+- JavaScript event handling
+- User input handling
+- Conditional statements
+- Mathematical calculations
+- Form/input validation
+- Dynamic result updates
+- Responsive CSS
+- CSS Grid/Flexbox
+- Creating a clean user interface
+
+---
+
+## 🔮 Future Improvements
+
+Some possible improvements for this project include:
+
+- Add more land measurement units
+- Add customizable conversion standards
+- Add conversion history
+- Add copy-to-clipboard functionality
+- Add dark mode
+- Add Urdu language support
+- Add downloadable conversion results
+- Improve accessibility
+- Add more detailed conversion information
+
+---
+
+## 👨‍💻 Author
+
+Abdul Hannan Zahid
+
+Frontend Developer | BSCS Student
+
+---
