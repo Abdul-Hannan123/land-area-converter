@@ -72,3 +72,34 @@ This project allows users to convert land measurements between different units s
 6. Click **Reset** to clear the input and results.
 
 ---
+
+## ⚠️ Input Validation
+
+The application also provides basic validation.
+
+### Empty Value
+
+If the user clicks **Convert** without entering a value, an alert is displayed asking the user to enter a value.
+
+### Unit Selection
+
+The application also checks that a valid conversion unit has been selected before performing the conversion.
+
+### Reset
+
+Clicking the **Reset** button clears the entered value and resets the conversion results.
+
+---
+
+## 📱 Responsive Design
+
+The application is designed to provide a good user experience on different screen sizes:
+
+- 🖥️ Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📲 Tablet
+
+The layout automatically adjusts according to the screen size.
+
+---
