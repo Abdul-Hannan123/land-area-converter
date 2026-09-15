@@ -39,3 +39,25 @@ This project allows users to convert land measurements between different units s
 - 🌐 No external library or framework required
 
 ---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Responsive Web Design**
+
+---
+
+## 📐 Supported Units
+
+| Unit | Description |
+|------|-------------|
+| Marla | Traditional land measurement unit |
+| Kanal | Traditional land measurement unit |
+| Acre | Standard land measurement unit |
+| Murabba | Large traditional land measurement unit |
+| Square Feet | Imperial area measurement |
+| Square Meter | Metric area measurement |
+
+---
