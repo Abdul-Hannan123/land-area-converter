@@ -61,3 +61,14 @@ This project allows users to convert land measurements between different units s
 | Square Meter | Metric area measurement |
 
 ---
+
+## 🎯 How It Works
+
+1. Enter the land area value.
+2. Select the unit you want to convert from.
+3. Click the **Convert** button.
+4. The application calculates the equivalent values.
+5. Results are displayed in individual conversion cards.
+6. Click **Reset** to clear the input and results.
+
+---
